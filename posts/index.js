@@ -20,5 +20,6 @@ app.post('/posts', (req, res) => {
 });
 
 app.listen(4000, () => {
+    console.log('v22')
     console.log("Posts service started on port 4000");
 })
